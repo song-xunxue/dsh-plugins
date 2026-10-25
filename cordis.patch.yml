@@ -1,0 +1,7 @@
+# dsh-peer-agents bundle layer.
+# Inserted into the profile's loader tree when the package is listed in dsh.profile.bundles.
+# Keep this file free of machine-specific paths: the peer list belongs in the profile's
+# own cordis.patch.yml (a user row with the same id replaces this config object wholesale).
+- insert:
+    - id: peer-agents
+      name: dsh-peer-agents
