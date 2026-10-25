@@ -31,7 +31,7 @@
   "author": "song-xunxue",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/song-xunxue/dsh-peer-agents.git"
+    "url": "git+https://github.com/song-xunxue/dsh-plugins.git"
   },
   "engines": {
     "node": ">=20"

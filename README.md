@@ -1,3 +1,6 @@
+> **本仓库**：`song-xunxue/dsh-plugins` —— DSH（DeepSeek Harness）插件仓库，计划收录多个插件。
+> 目前只有 `dsh-peer-agents`（位于仓库根，所以可以直接 `dsh plugin add github:song-xunxue/dsh-plugins` 装）；
+> 以后新插件各自发布到 npm 时，就平铺到 `plugins/<name>/`，安装按包名走。
 # dsh-peer-agents
 
 把你的**其他 CLI 智能体**（Claude Code、Codex、Gemini、或者你自己写的任何命令）当成同事，让 DSH 里的 agent 直接跟它们说话。
@@ -20,7 +23,7 @@
 
 ```bash
 # 从 GitHub 装
-dsh plugin --profile <profile> add github:song-xunxue/dsh-peer-agents
+dsh plugin --profile <profile> add github:song-xunxue/dsh-plugins
 
 # 或者本地目录（开发用）
 dsh plugin --profile <profile> add /path/to/dsh-peer-agents
